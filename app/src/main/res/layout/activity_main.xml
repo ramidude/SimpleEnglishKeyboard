@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/textViewDisplayBar"
+        android:layout_margin="5dp"
+        android:background="@color/purple_200">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="a"
+            android:tag="a"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="b"
+            android:tag="b"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="c"
+            android:tag="c"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="d"
+            android:tag="d"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="e"
+            android:tag="e"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="f"
+            android:tag="f"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="g"
+            android:tag="g"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="h"
+            android:tag="h"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="i"
+            android:tag="i"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="j"
+            android:tag="j"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:onClick="addChar">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="k"
+            android:tag="k"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="l"
+            android:tag="l"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="m"
+            android:tag="m"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="n"
+            android:tag="n"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="o"
+            android:tag="o"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="p"
+            android:tag="p"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="q"
+            android:tag="q"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="r"
+            android:tag="r"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="s"
+            android:tag="s"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="t"
+            android:tag="t"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="u"
+            android:tag="u"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="v"
+            android:tag="v"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="w"
+            android:tag="w"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="x"
+            android:tag="x"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="y"
+            android:tag="y"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="z"
+            android:tag="z"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="_"
+            android:tag=" "
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="addChar">
+        </Button>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/buttonClear"
+            android:text="Clear"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_weight="3"
+            android:onClick="clearButton">
+        </Button>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#050505"
+        android:onClick="closeMe"
+        android:text="Close App"
+        android:textColor="#FFFFFF">
+    </Button>
+
+
+</LinearLayout>
